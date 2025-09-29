@@ -139,7 +139,7 @@
 
 .flower-1{
     display: inline-block;
-    background-image: url('./image/flower-2.png');
+    background-image: url('image/flower-2.png');
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -499,3 +499,4 @@
     font-family: 'Courier New', Courier, monospace;   
 
 }
+
