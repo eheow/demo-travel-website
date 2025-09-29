@@ -1,0 +1,500 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lexend+Zetta:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+
+/* Imprted Fonts Libre Franklin , Dancing Script, Lexend Zetta, Quicksand */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.navigation-bar{
+    background-color: black;
+    position: sticky;
+    border-bottom: solid;
+    border-color: white;
+    border-width: 1px;
+    height: 30px;
+    bottom: 50px;
+}
+
+.navigation-bar a{
+    font-size: 18px;
+    margin-top: 0.5%;
+    display:inline-block;
+    font-family: "Quicksand";
+}
+
+.home-page{
+    color: white;
+    text-decoration: none;
+    margin-left: 3%;
+    margin-right: 10%;
+}
+
+.home-page:hover{
+    transition: 0.5s;
+    background-color: white;
+    color: black;
+}
+
+.home-page:active{
+    transition: 0.5s;
+    background-color:  rgba(82, 183, 255, 0.30);
+}
+
+.destination-page{
+    color: white;
+    text-decoration: none;
+    margin-left: 25%;
+    margin-right: 16%;    
+}
+
+.destination-page:hover{
+    transition: 0.5s;
+    background-color: white;
+    color: black;
+}
+
+.destination-page:active{
+    transition: 0.5s;
+    background-color:  rgba(82, 183, 255, 0.30);
+}
+
+.gallery-page{
+    color: white;
+    text-decoration: none;
+    margin-right: 20%;    
+}
+
+.gallery-page:hover{
+    transition: 0.5s;
+    background-color: white;
+    color: black;
+}
+
+.gallery-page:active{
+    transition: 0.5s;
+    background-color:  rgba(82, 183, 255, 0.3);
+}
+
+.travel-page{
+    color: white;
+    text-decoration: none; 
+}
+
+.travel-page:hover{
+    transition: 0.5s;
+    background-color: white;
+    color: black;
+}
+
+.travel-page:active{
+    background-color:  rgba(82, 183, 255, 0.3);
+}
+
+/* landing intro  */
+
+.landing-page-intro{
+    position: relative;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    border-bottom: solid;
+    border: white;
+}
+
+#para-0{
+    position: relative;
+    top: 5px;
+    text-align: center;
+    color: white;
+    font-size: 200px;
+    font-family: "Lexend Zetta";
+    top: 25%;
+}
+
+#para-1{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Libre Franklin";
+    top: 40%;    
+}
+
+/* PART - 1 */
+
+.first-part{
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.flower-1{
+    display: inline-block;
+    background-image: url('/image/flower-2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 600px;
+    width: 40%;
+    left: 10%;
+    bottom: 45%;
+}
+
+.statis{
+    display: inline-block;
+    position: relative;
+    top: 5%;
+    padding-bottom: 7%;
+}
+
+.destination-info{
+    display: inline-block;
+    position: relative;  
+}
+
+.experienced-guide{
+    display: inline-block;
+    position: relative;
+    bottom: 57%;
+}
+
+.percentage-1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:  60px;
+    color: rgb(255, 255, 255);
+}
+
+.percentage-2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:  60px;
+    color: rgb(255, 255, 255);
+}
+
+.percentage-3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:  60px;
+    color: rgb(255, 255, 255);
+}
+
+.text-1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:  67px;
+    color: rgb(255, 253, 253);
+}
+
+.text-2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:  67px;
+    color: rgb(255, 255, 255);
+}
+
+.text-3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:  67px;
+    color: rgb(255, 255, 255);
+}
+
+/* PART-2 */
+
+.second-part{
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    position:relative;
+}
+
+
+.second-image-3{
+    position: absolute;
+    display: block;
+    top: 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-image: url('/image/japan-castle-snow-1.png');   
+    width: 70%; 
+    height: 75%; 
+    border: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;   
+}
+
+.second-part-para{
+    color: rgb(255, 255, 255);
+    font-family: 'Libre Franklin', Courier, monospace;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+
+.gallery-link{
+    color: white;
+    font-family: 'Quicksand';
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    right: 1%;
+}
+
+.gallery-link a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Quicksand';
+    font-weight: 300;
+}
+
+/* THIRD PART */
+
+.third-part{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.third-part-image-1{
+    top: 10%;
+    height: 45.5%;
+    width: 100%;
+    position: absolute;
+    display: inline-block;
+    background-image: url('/image/square-7.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.third-part-para p{
+    color: white;
+    font-family: "Libre Franklin";
+    top: 60%;
+    font-size: 50px;
+    left: 5%;
+    position: absolute;
+
+}
+
+.destination-link{
+    position: absolute;
+    top: 73%;
+    left: 45%;
+}
+
+.destination-link a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Quicksand';
+}
+
+/* FOURTH PART */
+
+.fourth-part{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.fourth-image-1{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    height: 75%;
+    width: 30%;
+    top: 5.5%;
+    left: 2%;
+    background-image: url('/image/vertical-japan-3.jpg');
+    background-size: cover;
+}
+
+.fourth-image-1 p{
+    position: relative;
+    top: 105%;
+}
+
+.fourth-part-image1-info-1{
+    color: white;
+    font-family: 'Quicksand';
+    font-size: 13px;
+}
+
+.fourth-part-image1-info-2{
+    color: white;
+    font-family: 'Quicksand';
+    font-size: 13px;
+}
+
+.fourth-part-image1-info-3{
+    color: white;
+    font-family: 'Libre Franklin';
+    font-size: 20px;
+}
+
+.fourth-image-2{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    height: 75%;
+    width: 30%;
+    top: 5.5%;
+    left: 4.5%;
+    background-image: url('/image/vertical-aus-1.jpg');
+    background-size: cover;
+}
+
+.fourth-image-2 p{
+    position: relative;
+    top: 105%;
+}
+
+.fourth-part-image2-info-1{
+    color: white;
+    font-family: 'Quicksand';
+    font-size: 13px;
+}
+
+.fourth-part-image2-info-2{
+    color: white;
+    font-family: 'Quicksand';
+    font-size: 13px;
+}
+
+.fourth-part-image2-info-3{
+    color: white;
+    font-family: 'Libre Franklin';
+    font-size: 20px;
+}
+
+.fourth-image-3{
+    display: inline-block;
+    position: relative;
+    height: 75%;
+    top: 5.5%;
+    text-align: center;
+    right: 2%;
+    left: 6.9%;
+    width: 30%;
+    background-image: url('/image/vertical-us-2.jpg');
+    background-size: cover;
+}
+
+.fourth-image-3 p{
+    position: relative;
+    top: 105%;
+}
+
+.fourth-part-image3-info-1{
+    color: white;
+    font-family: 'Quicksand';
+    font-size: 13px;
+}
+
+.fourth-part-image3-info-2{
+    color: white;
+    font-family: 'Quicksand';
+    font-size: 13px;
+}
+
+.fourth-part-image3-info-3{
+    color: white;
+    font-family: 'Libre Franklin';
+    font-size: 20px;
+}
+
+.fourth-part-last-para{
+    color: white;
+    font-family: 'Quicksand';
+    text-align: center;
+    position: relative;
+    top: 20%;
+}
+
+/* LAST PART */
+
+.last-part{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.last-part-heading{
+    position: relative;
+    font-size: 100px;
+    font-family: 'Quicksand';
+    color: white;
+    text-align: center;
+    top: 26.95%; 
+}
+
+.last-part-navigation{
+    /* display: inline-block; */
+    position: relative;
+    float: left;
+    left: 15%;
+    margin-right: 37%;
+    top: 42.35%;
+}
+
+.last-part-social{
+    /* display: inline-block; */
+    position: relative;
+    float: left;
+    top: 42.35%;
+    margin-right: 22%;
+}
+
+.last-part-contact-us{
+    /* display: inline-block; */
+    position: relative;
+    float: left;
+    top: 41.965%;
+}
+
+.last-part-navigation a{
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+.last-part-navigation-heading{
+    color: white;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.last-part-social-heading{
+    color: white;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;   
+}
+
+.last-part-social a{
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;   
+    text-decoration: none;
+}
+
+.last-part-contact-us-heading{
+    color: white;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.last-part-contact-us-email{
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;   
+}
